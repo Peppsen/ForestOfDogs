@@ -101,6 +101,7 @@
 	<object class="MixerBusEffectChain" id="{a96bcf96-d90f-4227-a911-cae23e30b8c6}">
 		<relationship name="effects">
 			<destination>{cc3979a2-33dc-43e4-a771-d4374b8048d9}</destination>
+			<destination>{211c5a5c-ecda-4520-8a9c-f740dd157d0c}</destination>
 			<destination>{24dd1a01-6ee9-4f72-ba63-1c028dbfbdda}</destination>
 		</relationship>
 	</object>
@@ -113,6 +114,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{80b3956d-893b-45a4-a785-80ca28efdb74}" />
 	<object class="MixerBusFader" id="{cc3979a2-33dc-43e4-a771-d4374b8048d9}" />
+	<object class="GainEffect" id="{211c5a5c-ecda-4520-8a9c-f740dd157d0c}">
+		<property name="gain">
+			<value>-5.5</value>
+		</property>
+	</object>
 	<object class="TremoloEffect" id="{24dd1a01-6ee9-4f72-ba63-1c028dbfbdda}">
 		<property name="frequency">
 			<value>0.340000004</value>
