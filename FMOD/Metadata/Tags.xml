@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.01.10.00">
-    <object class="MasterTagFolder" id="{2c4fb2d4-d0c8-4c52-873b-f3422c110c1c}">
-        <property name="name">
-            <value>Master</value>
-        </property>
-    </object>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MasterTagFolder" id="{2c4fb2d4-d0c8-4c52-873b-f3422c110c1c}">
+		<property name="name">
+			<value>Master</value>
+		</property>
+		<relationship name="items">
+			<destination>{9fae213d-19a8-44d3-b84f-77357413df44}</destination>
+			<destination>{412a28d0-9c5b-4b09-a6c9-3a84cc0fb08b}</destination>
+			<destination>{329a3494-3b04-47fa-9748-8d49a4d080ba}</destination>
+		</relationship>
+	</object>
+	<object class="Tag" id="{9fae213d-19a8-44d3-b84f-77357413df44}">
+		<property name="name">
+			<value>Player</value>
+		</property>
+	</object>
+	<object class="Tag" id="{412a28d0-9c5b-4b09-a6c9-3a84cc0fb08b}">
+		<property name="name">
+			<value>Footsteps</value>
+		</property>
+	</object>
+	<object class="Tag" id="{329a3494-3b04-47fa-9748-8d49a4d080ba}">
+		<property name="name">
+			<value>Ambiance</value>
+		</property>
+	</object>
 </objects>
