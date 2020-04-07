@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{b9f1d01d-1348-4c58-ba94-8d5770add048}">
 		<property name="assetPath">
-			<value>StremSmall (short).wav</value>
+			<value>Ambience/StremSmall (short).wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
