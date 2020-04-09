@@ -76,7 +76,7 @@ med låg probabilty chance för att inte bli tjatigt
 			<destination>{4cdd6ccb-557f-4a78-b0ee-087aeff2db5f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{91a2e018-a1ba-47ce-8bb2-b6eb8f9d3700}</destination>
+			<destination>{6ce57eee-b3d6-4e92-a713-7c9505e6942c}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7c6424c3-6186-4f2a-852a-19aa30d32a41}" />
@@ -285,7 +285,6 @@ med låg probabilty chance för att inte bli tjatigt
 		<property name="timelockedOffset">
 			<value>0.60878123084540448</value>
 		</property>
-		<property name="name" />
 		<property name="pitch">
 			<value>-3</value>
 		</property>
