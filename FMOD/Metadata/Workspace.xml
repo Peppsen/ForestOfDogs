@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="Workspace" id="{da119f2e-5fac-4a05-834e-b4771fd9109d}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../../ForestOfDogs/Assets/Plugins/FMOD/Bank</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{ad54fc04-0041-48ab-93c4-9c50a229026e}</destination>
 		</relationship>
