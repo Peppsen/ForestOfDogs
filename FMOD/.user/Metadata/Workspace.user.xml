@@ -4,6 +4,9 @@
 		<relationship name="projectSettings">
 			<destination>{a284c157-6cf2-4984-ae31-7d72fe568051}</destination>
 		</relationship>
+		<relationship name="sourceControlProvider">
+			<destination>{0cbe648e-569d-4b85-9bab-78104d35227e}</destination>
+		</relationship>
 		<relationship name="changelist">
 			<destination>{fa8a941a-fac5-42e6-9a0e-736702586622}</destination>
 		</relationship>
@@ -15,6 +18,20 @@
 		<relationship name="activePlatform">
 			<destination>{bbf5de41-228d-4089-aa61-f5e5239e7ba7}</destination>
 		</relationship>
+	</object>
+	<object class="TfsProvider" id="{0cbe648e-569d-4b85-9bab-78104d35227e}">
+		<property name="workspaceName" />
+		<property name="serverURL" />
+		<property name="connectionPath" />
+		<property name="workspaceFormString">
+			<value>WorkspaceName: 
+ServerPath: 
+Owner: 
+ComputerName: 
+Location: Server
+FileTime: Checkin
+Comment: </value>
+		</property>
 	</object>
 	<object class="WorkspaceChangelist" id="{fa8a941a-fac5-42e6-9a0e-736702586622}" />
 </objects>
