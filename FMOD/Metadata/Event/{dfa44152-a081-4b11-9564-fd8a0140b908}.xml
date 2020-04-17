@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{dfa44152-a081-4b11-9564-fd8a0140b908}">
 		<property name="name">
-			<value>DogSelect</value>
+			<value>Click</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -59,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{83696bff-0e7a-49e7-ad40-27815aafe0dd}" />
 	<object class="MarkerTrack" id="{52388739-0648-4e9a-9821-9870951de43b}" />
 	<object class="GroupTrack" id="{0d19855a-94c5-4f48-b8e6-102ef45bf8dd}">
+		<relationship name="modules">
+			<destination>{f9e5a065-73f3-4012-ab5e-5a589c56a898}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2f2cce98-afde-4082-9c1c-27ec5a4e01ea}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{ff82e44d-b94f-4d73-acc3-6abb9212e3b3}" />
+	<object class="Timeline" id="{ff82e44d-b94f-4d73-acc3-6abb9212e3b3}">
+		<relationship name="modules">
+			<destination>{f9e5a065-73f3-4012-ab5e-5a589c56a898}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{227f59ee-eea4-4bbc-9e41-c75a1769ee73}">
 		<relationship name="effectChain">
 			<destination>{b628eb92-eec3-4d54-95c8-635b09bb8cb9}</destination>
@@ -81,7 +88,21 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1a06d043-a87f-4573-9b38-e71bbb8888ba}" />
+	<object class="SingleSound" id="{f9e5a065-73f3-4012-ab5e-5a589c56a898}">
+		<property name="length">
+			<value>0.0234375</value>
+		</property>
+		<property name="pitch">
+			<value>1</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{9a5d017b-f053-456c-b3cb-1a8ad93b0a3f}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{2f2cce98-afde-4082-9c1c-27ec5a4e01ea}">
+		<property name="volume">
+			<value>-14.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
