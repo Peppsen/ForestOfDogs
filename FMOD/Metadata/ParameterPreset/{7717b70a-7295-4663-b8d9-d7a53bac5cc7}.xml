@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{7717b70a-7295-4663-b8d9-d7a53bac5cc7}">
+		<property name="name">
+			<value>EnemyHit</value>
+		</property>
+		<relationship name="folder">
+			<destination>{214a916c-09a1-4f86-936f-48b5787c85bf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ed461726-8724-4a3f-92a1-3604beaa8c60}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ed461726-8724-4a3f-92a1-3604beaa8c60}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
