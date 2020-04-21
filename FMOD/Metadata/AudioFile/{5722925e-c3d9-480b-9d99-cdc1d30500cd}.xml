@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{eeb52690-312a-47a0-a453-4ebec2750612}">
+	<object class="AudioFile" id="{5722925e-c3d9-480b-9d99-cdc1d30500cd}">
 		<property name="assetPath">
-			<value>Squeak_015 (dying?) .wav</value>
+			<value>Squeak_015.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

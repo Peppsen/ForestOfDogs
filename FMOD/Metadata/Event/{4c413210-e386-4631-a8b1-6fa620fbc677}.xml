@@ -139,9 +139,6 @@ EnemySound (parameter)
 		<property name="length">
 			<value>0.5</value>
 		</property>
-		<relationship name="parameters">
-			<destination>{d4c699d8-4bf8-437d-8933-45608ae714b2}</destination>
-		</relationship>
 		<relationship name="event">
 			<destination>{63552e13-fb4d-43bf-be2d-e1391cc54bdf}</destination>
 		</relationship>
@@ -153,9 +150,6 @@ EnemySound (parameter)
 		<property name="length">
 			<value>0.5</value>
 		</property>
-		<relationship name="parameters">
-			<destination>{9f04ebc4-f48c-4ab9-bf3c-c60079ce987b}</destination>
-		</relationship>
 		<relationship name="event">
 			<destination>{469c5e49-0e15-4890-a9d4-fb9a4210fc80}</destination>
 		</relationship>
@@ -181,16 +175,6 @@ EnemySound (parameter)
 	</object>
 	<object class="MixerBusPanner" id="{d6a4744e-c7db-4a72-87b3-ec94c2c1ff9d}" />
 	<object class="MixerBusFader" id="{ae7e5b26-dd65-429e-871a-73e301e15cfd}" />
-	<object class="ParameterProperty" id="{d4c699d8-4bf8-437d-8933-45608ae714b2}">
-		<relationship name="parameter">
-			<destination>{95cd0d9e-7220-4f1f-a41b-b17519dde5ca}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProperty" id="{9f04ebc4-f48c-4ab9-bf3c-c60079ce987b}">
-		<relationship name="parameter">
-			<destination>{40ddf948-1c42-42fa-b369-42745b738ac6}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusEffectChain" id="{7be83833-cf06-4613-ba24-d010d6f9045f}">
 		<relationship name="effects">
 			<destination>{0555b048-f8d1-439f-a329-64927ba19c1b}</destination>

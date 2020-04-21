@@ -8,7 +8,7 @@
 			<value>Type (parameter)
 1 = Rubber Duck 
 2 = Vacum Cleaner
-3 =Balloon 
+3 = Balloon 
  </value>
 		</property>
 		<property name="outputFormat">
@@ -138,9 +138,6 @@
 	<object class="MultiSound" id="{1ade6987-6eb5-40ea-951c-f869d71bca5f}">
 		<property name="start">
 			<value>3</value>
-		</property>
-		<property name="length">
-			<value>1.0000000000000002</value>
 		</property>
 		<property name="name">
 			<value>BalloonHit</value>

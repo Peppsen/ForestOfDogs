@@ -172,7 +172,7 @@
 	<object class="MixerBusFader" id="{47578648-3d09-424e-9cb9-89f227479803}" />
 	<object class="SingleSound" id="{c3d54f17-6fe9-40f0-9e31-231fa3d93240}">
 		<relationship name="audioFile">
-			<destination>{eeb52690-312a-47a0-a453-4ebec2750612}</destination>
+			<destination>{5722925e-c3d9-480b-9d99-cdc1d30500cd}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{1bf1f6dd-62c2-4b3e-bd60-a510b8407147}">
