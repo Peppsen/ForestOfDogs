@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{4a3e10f9-6a70-4900-a58c-444b57c9ab37}">
 		<property name="name">
-			<value>Attack</value>
+			<value>Ability</value>
 		</property>
 		<relationship name="folder">
 			<destination>{214a916c-09a1-4f86-936f-48b5787c85bf}</destination>
@@ -16,7 +16,7 @@
 			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>5</value>
 		</property>
 		<property name="initialValue">
 			<value>1</value>

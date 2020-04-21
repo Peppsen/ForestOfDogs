@@ -7,11 +7,12 @@
 		<property name="note">
 			<value>Combat Manager
 
-Attack parameter 
+Ability parameter 
 1 = PawStrike 
 2 = BiteAttack
 3 = BattleBork
 4 = Healing 
+5 = Defense
 </value>
 		</property>
 		<property name="outputFormat">
@@ -40,6 +41,7 @@ Attack parameter
 			<destination>{b0d4c974-a15b-4ca1-ad2e-9f59b23ace20}</destination>
 			<destination>{bede6160-f2cc-4801-9e90-c7030baee919}</destination>
 			<destination>{f522f4db-c8e0-4e1b-879e-057cf84dbcea}</destination>
+			<destination>{8e5742eb-dd1e-4558-906d-a444ba421f38}</destination>
 		</relationship>
 		<relationship name="timeline">
 			<destination>{e49deb57-02c2-4df1-8f94-8c6ff06b18b3}</destination>
@@ -103,12 +105,21 @@ Attack parameter
 			<destination>{de84d751-c7b5-4abd-82a2-75be1b0beb43}</destination>
 		</relationship>
 	</object>
+	<object class="GroupTrack" id="{8e5742eb-dd1e-4558-906d-a444ba421f38}">
+		<relationship name="modules">
+			<destination>{a5b4d5a1-adb6-47de-89ea-90e718d27c65}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{fc4dde26-0a5c-43d7-9e7d-3e64eeb8a002}</destination>
+		</relationship>
+	</object>
 	<object class="Timeline" id="{e49deb57-02c2-4df1-8f94-8c6ff06b18b3}">
 		<relationship name="modules">
 			<destination>{b1db531e-cd76-445b-9ef7-aa9153242920}</destination>
 			<destination>{59eeeede-ea6a-4df3-af46-385922690b7b}</destination>
 			<destination>{ef2c2111-a0eb-4788-bf3b-155cfe9a2033}</destination>
 			<destination>{bc84f3cb-f157-4942-93f3-306e9f57fa41}</destination>
+			<destination>{a5b4d5a1-adb6-47de-89ea-90e718d27c65}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7b74553a-b2a1-4657-b18c-c6b1deeb349c}">
@@ -228,6 +239,31 @@ Attack parameter
 			<destination>{7b74553a-b2a1-4657-b18c-c6b1deeb349c}</destination>
 		</relationship>
 	</object>
+	<object class="EventSound" id="{a5b4d5a1-adb6-47de-89ea-90e718d27c65}">
+		<property name="length">
+			<value>1.5</value>
+		</property>
+		<relationship name="triggerConditions">
+			<destination>{5951d74b-91c0-443a-8f48-8155a27d00b2}</destination>
+		</relationship>
+		<relationship name="event">
+			<destination>{3e65d2ec-2225-410c-8453-4c2b28cc534b}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{fc4dde26-0a5c-43d7-9e7d-3e64eeb8a002}">
+		<property name="name">
+			<value>DefenceAbility</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1c57d4b5-fb2a-495f-be2f-9d0df210a8cd}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{129f6c4d-10b3-4b48-bc0e-c9e095f7b28b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{7b74553a-b2a1-4657-b18c-c6b1deeb349c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{1f5330f5-c3e9-4683-90fa-c6c05199dc48}">
 		<relationship name="effects">
 			<destination>{ec167a65-d780-40cc-9e57-a1c8e4cf6fdf}</destination>
@@ -291,7 +327,7 @@ Attack parameter
 			<value>4</value>
 		</property>
 		<property name="maximum">
-			<value>4</value>
+			<value>4.9899997711181641</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{c3d0bf66-1493-4abf-ae6a-63e84c410942}</destination>
@@ -303,9 +339,27 @@ Attack parameter
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ad1023a0-2f45-49d3-9bfa-626d9bbf5505}" />
+	<object class="ParameterCondition" id="{5951d74b-91c0-443a-8f48-8155a27d00b2}">
+		<property name="minimum">
+			<value>5</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{c3d0bf66-1493-4abf-ae6a-63e84c410942}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{1c57d4b5-fb2a-495f-be2f-9d0df210a8cd}">
+		<relationship name="effects">
+			<destination>{1901fc5e-1b79-4c76-9d05-11992bb90fa4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{129f6c4d-10b3-4b48-bc0e-c9e095f7b28b}" />
 	<object class="MixerBusFader" id="{ec167a65-d780-40cc-9e57-a1c8e4cf6fdf}" />
 	<object class="MixerBusFader" id="{b02640b1-aa9f-4fb2-aa3b-e96d2e9df79a}" />
 	<object class="MixerBusFader" id="{2dce4876-7f8d-4199-bc74-f966477d1de1}" />
 	<object class="MixerBusFader" id="{90367fc1-0855-40db-b0a0-e3d96f45bc3f}" />
 	<object class="MixerBusFader" id="{14dfa6a2-fc67-4432-8eb9-416cfee28beb}" />
+	<object class="MixerBusFader" id="{1901fc5e-1b79-4c76-9d05-11992bb90fa4}" />
 </objects>

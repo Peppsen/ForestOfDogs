@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{8ac3a010-0972-43ea-8ee0-5a2ff9961510}">
+		<property name="name">
+			<value>Heal</value>
+		</property>
+		<relationship name="folder">
+			<destination>{214a916c-09a1-4f86-936f-48b5787c85bf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{babe1c24-1318-425e-a0ea-d59d64215ec4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{babe1c24-1318-425e-a0ea-d59d64215ec4}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
