@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="EventFolder" id="{e2ef1e19-6851-4fbc-b6b4-0d175c89f9e0}">
+	<object class="EventFolder" id="{d45110a9-a999-4079-b6a2-500887c6f780}">
 		<property name="name">
-			<value>PlayerCombatEvents</value>
+			<value>EnemyCombatEvents</value>
 		</property>
 		<relationship name="folder">
 			<destination>{54311198-06f7-4976-a1d2-9c7e8567fd66}</destination>
