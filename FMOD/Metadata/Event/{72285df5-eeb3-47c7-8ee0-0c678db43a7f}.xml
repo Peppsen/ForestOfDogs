@@ -131,7 +131,7 @@
 			<value>RubberDuck Attack</value>
 		</property>
 		<relationship name="triggerConditions">
-			<destination>{e2eb937f-e90d-4399-8710-3f04dbf7767c}</destination>
+			<destination>{cedbb1be-aafb-4527-8630-95b1405f8b00}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{0c334fa4-db3c-454d-bc59-808b109ec7b0}</destination>
@@ -167,7 +167,7 @@
 			<destination>{55ee82aa-b367-4845-8721-1817454ab232}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
-			<destination>{00a25d82-fb38-4150-b5fd-e1a6b430137d}</destination>
+			<destination>{0174c972-69f4-47a6-a25e-820be688e0dd}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{3233083e-5e63-46b6-87d8-9e6506909a28}</destination>
@@ -200,7 +200,7 @@
 			<value>RubberDUCK</value>
 		</property>
 		<relationship name="triggerConditions">
-			<destination>{bc3fa1fb-f6ea-473a-9194-045e07e0f0f7}</destination>
+			<destination>{948d78ab-8358-4c9a-b72b-2b522b08031a}</destination>
 		</relationship>
 		<relationship name="sounds">
 			<destination>{388d1156-4a76-4477-ba19-0441286fc10b}</destination>
@@ -228,15 +228,15 @@
 	</object>
 	<object class="MixerBusPanner" id="{ceb79dd5-7a73-4b2f-a960-c3bd2fb498ea}" />
 	<object class="MixerBusFader" id="{1e9769df-85cc-4746-9520-b808880616c1}" />
-	<object class="ParameterCondition" id="{e2eb937f-e90d-4399-8710-3f04dbf7767c}">
+	<object class="ParameterCondition" id="{cedbb1be-aafb-4527-8630-95b1405f8b00}">
 		<property name="minimum">
 			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>1.5</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
-			<destination>{ed3b425f-8db4-4660-bd89-d2ee2998c64c}</destination>
+			<destination>{cf4bb322-4017-4f72-a4e0-932c1076a3bd}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{0c334fa4-db3c-454d-bc59-808b109ec7b0}">
@@ -268,15 +268,15 @@
 			<value>24</value>
 		</property>
 	</object>
-	<object class="ParameterCondition" id="{00a25d82-fb38-4150-b5fd-e1a6b430137d}">
+	<object class="ParameterCondition" id="{0174c972-69f4-47a6-a25e-820be688e0dd}">
 		<property name="minimum">
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>2.5</value>
+			<value>2</value>
 		</property>
 		<relationship name="parameter">
-			<destination>{ed3b425f-8db4-4660-bd89-d2ee2998c64c}</destination>
+			<destination>{cf4bb322-4017-4f72-a4e0-932c1076a3bd}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{3233083e-5e63-46b6-87d8-9e6506909a28}">
@@ -318,7 +318,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{16220b12-3b20-4a5c-b866-f5e3efa39650}" />
-	<object class="ParameterCondition" id="{bc3fa1fb-f6ea-473a-9194-045e07e0f0f7}">
+	<object class="ParameterCondition" id="{948d78ab-8358-4c9a-b72b-2b522b08031a}">
 		<property name="minimum">
 			<value>3</value>
 		</property>
@@ -326,7 +326,7 @@
 			<value>3</value>
 		</property>
 		<relationship name="parameter">
-			<destination>{ed3b425f-8db4-4660-bd89-d2ee2998c64c}</destination>
+			<destination>{cf4bb322-4017-4f72-a4e0-932c1076a3bd}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{388d1156-4a76-4477-ba19-0441286fc10b}">

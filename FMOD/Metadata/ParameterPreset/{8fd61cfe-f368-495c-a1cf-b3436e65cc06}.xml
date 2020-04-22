@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{8fd61cfe-f368-495c-a1cf-b3436e65cc06}">
 		<property name="name">
-			<value>VacumcleanerState</value>
+			<value>VacuumcleanerState</value>
 		</property>
 		<relationship name="folder">
 			<destination>{214a916c-09a1-4f86-936f-48b5787c85bf}</destination>
