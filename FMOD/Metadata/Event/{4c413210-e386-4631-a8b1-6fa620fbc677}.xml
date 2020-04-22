@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{4c413210-e386-4631-a8b1-6fa620fbc677}">
 		<property name="name">
-			<value>EnemyCombatManager</value>
+			<value>OldEnemyCombatManager</value>
 		</property>
 		<property name="note">
 			<value>Enemy Combat Manager
@@ -17,7 +17,7 @@ EnemySound (parameter)
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{54311198-06f7-4976-a1d2-9c7e8567fd66}</destination>
+			<destination>{d45110a9-a999-4079-b6a2-500887c6f780}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{ae4baa84-bf79-45c5-86db-7abf2828bb51}</destination>
@@ -42,9 +42,6 @@ EnemySound (parameter)
 		</relationship>
 		<relationship name="parameters">
 			<destination>{a60ff5a7-8f36-4956-8f36-3917e056a983}</destination>
-		</relationship>
-		<relationship name="banks">
-			<destination>{73a05a7a-0d24-49cf-83ac-364bb78c20ea}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{ae4baa84-bf79-45c5-86db-7abf2828bb51}">

@@ -8,6 +8,11 @@
 			<destination>{9fae213d-19a8-44d3-b84f-77357413df44}</destination>
 			<destination>{412a28d0-9c5b-4b09-a6c9-3a84cc0fb08b}</destination>
 			<destination>{329a3494-3b04-47fa-9748-8d49a4d080ba}</destination>
+			<destination>{615ade8c-7299-491a-8df8-97c1a40d8ac1}</destination>
+			<destination>{fd13443d-af49-4d52-8207-837b524a3541}</destination>
+			<destination>{0ec8b99e-6572-4a9f-9706-a359bc013d4c}</destination>
+			<destination>{175f3f40-8b96-4cc2-a553-001bcfa9c997}</destination>
+			<destination>{f97dd61f-a4a7-4dc3-9e39-c594c5b79b27}</destination>
 		</relationship>
 	</object>
 	<object class="Tag" id="{9fae213d-19a8-44d3-b84f-77357413df44}">
@@ -23,6 +28,31 @@
 	<object class="Tag" id="{329a3494-3b04-47fa-9748-8d49a4d080ba}">
 		<property name="name">
 			<value>Ambiance</value>
+		</property>
+	</object>
+	<object class="Tag" id="{615ade8c-7299-491a-8df8-97c1a40d8ac1}">
+		<property name="name">
+			<value>Enemy</value>
+		</property>
+	</object>
+	<object class="Tag" id="{fd13443d-af49-4d52-8207-837b524a3541}">
+		<property name="name">
+			<value>Combat</value>
+		</property>
+	</object>
+	<object class="Tag" id="{0ec8b99e-6572-4a9f-9706-a359bc013d4c}">
+		<property name="name">
+			<value>RubberDuck</value>
+		</property>
+	</object>
+	<object class="Tag" id="{175f3f40-8b96-4cc2-a553-001bcfa9c997}">
+		<property name="name">
+			<value>VacumCleaner</value>
+		</property>
+	</object>
+	<object class="Tag" id="{f97dd61f-a4a7-4dc3-9e39-c594c5b79b27}">
+		<property name="name">
+			<value>Balloon</value>
 		</property>
 	</object>
 </objects>

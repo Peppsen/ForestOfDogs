@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{8fd61cfe-f368-495c-a1cf-b3436e65cc06}">
+		<property name="name">
+			<value>VacumcleanerState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{214a916c-09a1-4f86-936f-48b5787c85bf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f5091170-2c46-44ef-8b91-5b8dd8ddf685}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f5091170-2c46-44ef-8b91-5b8dd8ddf685}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

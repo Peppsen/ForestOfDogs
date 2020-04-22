@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{fd9a513d-602e-4fd5-b4c2-dec30b0e927f}">
+		<property name="name">
+			<value>RubberduckState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{214a916c-09a1-4f86-936f-48b5787c85bf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ed3b425f-8db4-4660-bd89-d2ee2998c64c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ed3b425f-8db4-4660-bd89-d2ee2998c64c}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{72d99266-a1bd-4690-addc-741b4d620ad4}">
 		<property name="name">
-			<value>CombatManager</value>
+			<value>PlayerCombatManager</value>
 		</property>
 		<property name="note">
 			<value>Combat Manager
