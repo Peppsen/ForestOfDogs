@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{4a3e10f9-6a70-4900-a58c-444b57c9ab37}">
+	<object class="ParameterPreset" id="{7d736585-e0fa-480f-8400-49cd9b4f7449}">
 		<property name="name">
-			<value>PlayerState</value>
+			<value>AttackType</value>
 		</property>
 		<relationship name="folder">
 			<destination>{214a916c-09a1-4f86-936f-48b5787c85bf}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{c3d0bf66-1493-4abf-ae6a-63e84c410942}</destination>
+			<destination>{245e7897-e45f-4deb-932f-abb2bc5d206b}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{c3d0bf66-1493-4abf-ae6a-63e84c410942}">
+	<object class="GameParameter" id="{245e7897-e45f-4deb-932f-abb2bc5d206b}">
 		<property name="minimum">
 			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>5</value>
+			<value>4</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>
