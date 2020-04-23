@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{23fe2d6e-13e5-4cb4-9ee7-d86050283d7d}">
 		<property name="assetPath">
-			<value>DogDeselect#2.wav</value>
+			<value>Ui/DogDeselect#2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

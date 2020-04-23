@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{be806b79-b6e4-48c6-b752-96b2ba84fe84}">
 		<property name="assetPath">
-			<value>RubberduckHit_003.wav</value>
+			<value>Enemys/RubberduckHit_003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

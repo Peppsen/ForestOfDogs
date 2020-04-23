@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{77095b44-32b3-43d8-8006-3db49b1591a0}">
 		<property name="assetPath">
-			<value>Defense_001 (utan bubblor) .wav</value>
+			<value>Player/Defense_001 (utan bubblor) .wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

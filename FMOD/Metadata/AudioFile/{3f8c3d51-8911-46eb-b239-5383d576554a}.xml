@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{3f8c3d51-8911-46eb-b239-5383d576554a}">
 		<property name="assetPath">
-			<value>ballon_016 (rubbery snap) .wav</value>
+			<value>Enemys/ballon_016 (rubbery snap) .wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

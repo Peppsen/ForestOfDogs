@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{a3dd1d2a-9e1e-441c-b798-8b04e7e878de}">
+	<object class="AudioFile" id="{fa760f8e-01e8-48ae-91fa-0f6321a30bd3}">
 		<property name="assetPath">
-			<value>Enemys/Balloon_023 (hit).wav</value>
+			<value>Player/bark008.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.75</value>
+			<value>0.59375</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{26152c41-e492-47ef-88ba-253ebc247536}</destination>

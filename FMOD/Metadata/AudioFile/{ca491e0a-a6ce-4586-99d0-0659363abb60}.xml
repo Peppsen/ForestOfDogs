@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{ca491e0a-a6ce-4586-99d0-0659363abb60}">
 		<property name="assetPath">
-			<value>ballon_017 (nice fart) .wav</value>
+			<value>Enemys/ballon_017 (nice fart) .wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

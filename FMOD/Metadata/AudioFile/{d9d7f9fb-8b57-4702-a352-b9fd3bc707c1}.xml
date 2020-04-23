@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{d9d7f9fb-8b57-4702-a352-b9fd3bc707c1}">
 		<property name="assetPath">
-			<value>Squeak_006.wav</value>
+			<value>Enemys/Squeak_006.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

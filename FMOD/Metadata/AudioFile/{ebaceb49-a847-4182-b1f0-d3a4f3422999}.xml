@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{ebaceb49-a847-4182-b1f0-d3a4f3422999}">
 		<property name="assetPath">
-			<value>Balloon_025 (bang).wav</value>
+			<value>Enemys/Balloon_025 (bang).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{253550ec-1274-467a-aa87-efae40f25492}">
 		<property name="assetPath">
-			<value>howl001.wav</value>
+			<value>Player/howl001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

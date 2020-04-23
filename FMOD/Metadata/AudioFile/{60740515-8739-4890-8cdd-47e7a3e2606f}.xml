@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{60740515-8739-4890-8cdd-47e7a3e2606f}">
 		<property name="assetPath">
-			<value>treebrush_007.wav</value>
+			<value>Ambience/treebrush_007.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
