@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{b8e89b79-a41e-45fa-81ff-da682bd90bbb}">
 		<property name="assetPath">
-			<value>HoverTest001.wav</value>
+			<value>Ui/HoverTest001.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

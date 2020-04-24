@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{eaf892d8-8da1-4516-a764-9929e6754325}">
 		<property name="assetPath">
-			<value>Plink2.wav</value>
+			<value>Ui/Plink2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

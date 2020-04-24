@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{2d52deeb-8f5f-44f2-bc71-e5cbc18c32b1}">
 		<property name="assetPath">
-			<value>HoverLoop001.wav</value>
+			<value>Ui/HoverLoop001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

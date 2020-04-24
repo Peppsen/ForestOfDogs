@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{11a28c48-4013-4e9f-a9d3-9066587f2eec}">
+		<property name="assetPath">
+			<value>StBernard_Mono.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.39285416666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26152c41-e492-47ef-88ba-253ebc247536}</destination>
+		</relationship>
+	</object>
+</objects>

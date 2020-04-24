@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{548a2cbe-433e-43e6-bc32-48b0b5be02bb}">
 		<property name="assetPath">
-			<value>stinger_losing_placeholder_170bpm.wav</value>
+			<value>Music/stinger_losing_placeholder_170bpm.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

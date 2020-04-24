@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{6945de33-6f27-4182-a5f3-b6e833003cdd}">
 		<property name="assetPath">
-			<value>shortcling001.wav</value>
+			<value>Ui/shortcling001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

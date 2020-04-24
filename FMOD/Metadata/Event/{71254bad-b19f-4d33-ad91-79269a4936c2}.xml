@@ -296,6 +296,9 @@ med låg probabilty chance för att inte bli tjatigt
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3efb8da4-4fec-4643-a2a2-93312244586b}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<property name="name">
 			<value>Layer rev</value>
 		</property>

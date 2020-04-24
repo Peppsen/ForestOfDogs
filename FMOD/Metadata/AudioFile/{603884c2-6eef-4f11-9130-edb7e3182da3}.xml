@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{603884c2-6eef-4f11-9130-edb7e3182da3}">
+		<property name="assetPath">
+			<value>Ambience/Forest Small Wind Different High Pitch Birds Mono.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>18.730666666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{26152c41-e492-47ef-88ba-253ebc247536}</destination>
+		</relationship>
+	</object>
+</objects>
