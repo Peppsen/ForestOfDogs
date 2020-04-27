@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{0669fa9d-e798-4029-bbb0-db91d07721f2}">
+	<object class="ParameterPreset" id="{a7f65ec9-fc55-4f8a-957f-c93f6d0510c4}">
 		<property name="name">
-			<value>Defeat</value>
+			<value>CombatStinger</value>
 		</property>
 		<relationship name="folder">
 			<destination>{214a916c-09a1-4f86-936f-48b5787c85bf}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{64daf8cf-5860-4f85-ba8d-10f161dc42b8}</destination>
+			<destination>{beeab87e-d6aa-4041-b7e3-95b69acea6bc}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{64daf8cf-5860-4f85-ba8d-10f161dc42b8}">
-		<property name="isGlobal">
-			<value>true</value>
-		</property>
+	<object class="GameParameter" id="{beeab87e-d6aa-4041-b7e3-95b69acea6bc}">
 		<property name="initialValue">
 			<value>0</value>
-		</property>
-		<property name="isExposedRecursively">
-			<value>false</value>
 		</property>
 	</object>
 </objects>

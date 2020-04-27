@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{1ef919bb-ad66-4705-9f52-4e7d9a2beab2}">
+	<object class="ParameterPreset" id="{bb86f27a-5931-4965-bfe1-08da1b92243a}">
 		<property name="name">
-			<value>Combat</value>
+			<value>Overworld</value>
 		</property>
 		<relationship name="folder">
 			<destination>{214a916c-09a1-4f86-936f-48b5787c85bf}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{7fc4d67c-7966-4514-b7cf-21d5ae615538}</destination>
+			<destination>{694b7419-2356-4142-980b-fdacfcdbdc7c}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{7fc4d67c-7966-4514-b7cf-21d5ae615538}">
-		<property name="maximum">
-			<value>2</value>
-		</property>
+	<object class="GameParameter" id="{694b7419-2356-4142-980b-fdacfcdbdc7c}">
 		<property name="isGlobal">
 			<value>true</value>
 		</property>
