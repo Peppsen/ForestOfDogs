@@ -72,7 +72,7 @@ EnemyState (parameter)
 			<destination>{19c3b990-f515-4805-b56d-52386e3a4484}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{91a2e018-a1ba-47ce-8bb2-b6eb8f9d3700}</destination>
+			<destination>{d181f56c-7632-4596-91a4-9b1fcd6bdea8}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{12abd1f6-8a26-4bfa-87e9-ae6e925de588}" />
