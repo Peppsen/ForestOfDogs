@@ -195,7 +195,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{05e6a625-26bc-4d03-8f3e-053752c7fcc5}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-12.5</value>
 		</property>
 		<property name="name">
 			<value>Stinger - Loss</value>
@@ -226,7 +226,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{67b5d812-1425-4377-a9fa-bf9669211742}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-11.5</value>
 		</property>
 		<property name="name">
 			<value>Stinger - Win</value>
