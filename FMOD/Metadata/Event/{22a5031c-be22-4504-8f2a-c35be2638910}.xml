@@ -122,6 +122,7 @@
 		<property name="length">
 			<value>2</value>
 		</property>
+		<property name="name" />
 		<relationship name="triggerConditions">
 			<destination>{d40336e6-334b-4af7-8319-09b3b4465aae}</destination>
 		</relationship>
