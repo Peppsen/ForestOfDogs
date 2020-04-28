@@ -60,7 +60,7 @@
 			<destination>{22399daf-518e-436d-b9df-6562de9f0c9d}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{91a2e018-a1ba-47ce-8bb2-b6eb8f9d3700}</destination>
+			<destination>{6ce57eee-b3d6-4e92-a713-7c9505e6942c}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d71b5bca-2ba5-4f2d-8e34-4010e06bb554}" />
@@ -108,6 +108,9 @@
 		<property name="length">
 			<value>0.33854166666666669</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{a0040d87-7b38-46a9-8162-31b1ac2d36d6}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{858c1d6c-798f-4816-b417-794a9be4ffc3}</destination>
 			<destination>{23fecee3-be15-454d-ae37-5410bb1a689a}</destination>
@@ -118,6 +121,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{aadc5514-cb54-4fe2-aa06-7ff544568af7}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<property name="name">
 			<value>GRASS</value>
 		</property>
@@ -147,6 +153,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e6085201-c205-4986-9c1f-6f8c1fd5a63e}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<property name="name">
 			<value>DIRT</value>
 		</property>
@@ -168,6 +177,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{fe7dcf0e-c5b0-49ea-a41a-0bcffce8aa9f}" />
 	<object class="MixerBusFader" id="{3300a8ef-e5df-416d-9aa1-1f14b46f3b94}" />
+	<object class="ParameterCondition" id="{a0040d87-7b38-46a9-8162-31b1ac2d36d6}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>1</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{b55aa4a8-c771-4407-8531-9ad3c49f4a39}</destination>
+		</relationship>
+	</object>
 	<object class="SingleSound" id="{858c1d6c-798f-4816-b417-794a9be4ffc3}">
 		<relationship name="audioFile">
 			<destination>{fe72bd89-fbcd-4ff5-86dc-b313c35ca985}</destination>
@@ -210,7 +230,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>10.5</value>
+			<value>6</value>
 		</property>
 	</object>
 	<object class="ParameterCondition" id="{1af28b7a-c924-47b0-a25b-a07709ea15c8}">
@@ -243,7 +263,7 @@
 	<object class="MixerBusPanner" id="{46d0256e-6e30-423d-9c10-fba427ca5d3d}" />
 	<object class="CompressorEffect" id="{d149f9d3-1cca-43c9-8366-91f50e011933}">
 		<property name="threshold">
-			<value>-10</value>
+			<value>-21</value>
 		</property>
 		<property name="ratio">
 			<value>4.19999981</value>
@@ -254,6 +274,9 @@
 		<property name="releaseTime">
 			<value>56</value>
 		</property>
+		<property name="gain">
+			<value>2</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{29af78c9-6964-4c8b-a49f-58e6036e28dc}" />
 	<object class="ThreeEQEffect" id="{8c21f538-8489-4535-80ff-82b43887c91b}">
@@ -263,6 +286,9 @@
 		<property name="midGain">
 			<value>-6</value>
 		</property>
+		<property name="highGain">
+			<value>-8.5</value>
+		</property>
 		<property name="crossoverSlope">
 			<value>0</value>
 		</property>
@@ -270,10 +296,10 @@
 	<object class="MixerBusFader" id="{784ee964-282d-45dc-b5c3-085099640892}" />
 	<object class="ThreeEQEffect" id="{83be2ab2-1aa3-4192-bee2-e72328296613}">
 		<property name="lowGain">
-			<value>-11</value>
+			<value>-18.5</value>
 		</property>
 		<property name="highGain">
-			<value>-7.5</value>
+			<value>-12.5</value>
 		</property>
 		<property name="crossoverSlope">
 			<value>0</value>

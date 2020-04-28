@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Enemies</value>
 		</property>
+		<relationship name="masters">
+			<destination>{ee54f9af-464a-47b9-9533-37a529e92e71}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{1b51e903-000c-41e0-9ea5-25db02a2ef0f}</destination>
 		</relationship>
