@@ -4,6 +4,13 @@
 		<property name="name">
 			<value>PlayerAttack</value>
 		</property>
+		<property name="note">
+			<value>AttackType parameter
+1 = Paw
+2 = Bite
+3 = Ruff
+4 = Tailspin</value>
+		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
@@ -173,6 +180,9 @@
 		<property name="length">
 			<value>2</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{18be6155-8435-466f-865e-8e3e23db03ee}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{4ebf4ef6-6977-4c89-9fd2-27a61768cd71}</destination>
 		</relationship>
@@ -195,6 +205,9 @@
 		<property name="length">
 			<value>2</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{311a1b50-eefa-4cd1-82f6-99b4fbd9af0a}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{2b833911-44e3-415f-8f74-cb27beccbe4f}</destination>
 		</relationship>
@@ -254,12 +267,34 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7b3077e8-61c7-4a1e-948c-42f39da0287f}" />
+	<object class="ParameterCondition" id="{18be6155-8435-466f-865e-8e3e23db03ee}">
+		<property name="minimum">
+			<value>3</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{245e7897-e45f-4deb-932f-abb2bc5d206b}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{2d0b0493-4e56-4fb6-9ad7-8445ef0cf156}">
 		<relationship name="effects">
 			<destination>{5954e784-51a9-447a-98a9-521941930afe}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{88fa5f92-2a98-4cdf-98ea-316abe4bb105}" />
+	<object class="ParameterCondition" id="{311a1b50-eefa-4cd1-82f6-99b4fbd9af0a}">
+		<property name="minimum">
+			<value>4</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{245e7897-e45f-4deb-932f-abb2bc5d206b}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{fe547021-3d73-4bb1-a04e-07991dd86e16}">
 		<relationship name="effects">
 			<destination>{a65eb147-3b01-4be0-bf93-2fd382932886}</destination>

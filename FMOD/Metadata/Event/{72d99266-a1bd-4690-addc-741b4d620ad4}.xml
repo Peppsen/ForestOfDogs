@@ -17,6 +17,8 @@ PlayerState parameter
 AttackType parameter
 1 = Paw
 2 = Bite
+3 = Ruff
+4 = Tailspin
 </value>
 		</property>
 		<property name="outputFormat">
