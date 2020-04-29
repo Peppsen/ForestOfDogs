@@ -113,7 +113,7 @@ AttackType parameter
 	</object>
 	<object class="GroupTrack" id="{52b56bb9-01b4-43a9-9dee-3da88eb5c5ba}">
 		<relationship name="modules">
-			<destination>{2ea9b1c5-1af4-4595-9f2e-11db6e25dc19}</destination>
+			<destination>{f41d7cce-8dfe-4b39-8ed5-ca46b32bcdde}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ea3c1581-78bb-4b78-86d3-b8206466f0f1}</destination>
@@ -125,7 +125,7 @@ AttackType parameter
 			<destination>{ef2c2111-a0eb-4788-bf3b-155cfe9a2033}</destination>
 			<destination>{a5b4d5a1-adb6-47de-89ea-90e718d27c65}</destination>
 			<destination>{f53d0b19-18cc-4cdc-9618-bb52c43121db}</destination>
-			<destination>{2ea9b1c5-1af4-4595-9f2e-11db6e25dc19}</destination>
+			<destination>{f41d7cce-8dfe-4b39-8ed5-ca46b32bcdde}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7b74553a-b2a1-4657-b18c-c6b1deeb349c}">
@@ -245,12 +245,12 @@ AttackType parameter
 			<destination>{7b74553a-b2a1-4657-b18c-c6b1deeb349c}</destination>
 		</relationship>
 	</object>
-	<object class="EventSound" id="{2ea9b1c5-1af4-4595-9f2e-11db6e25dc19}">
+	<object class="EventSound" id="{f41d7cce-8dfe-4b39-8ed5-ca46b32bcdde}">
 		<property name="length">
 			<value>0.5</value>
 		</property>
 		<relationship name="triggerConditions">
-			<destination>{69cb1b22-378a-4312-a96d-fc8442d0658b}</destination>
+			<destination>{f3d0203e-be28-46f5-8baa-d6c3bec61536}</destination>
 		</relationship>
 		<relationship name="event">
 			<destination>{011ece5a-b377-41fc-8d12-a4c02d7c4fe1}</destination>
@@ -345,7 +345,7 @@ AttackType parameter
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{129f6c4d-10b3-4b48-bc0e-c9e095f7b28b}" />
-	<object class="ParameterCondition" id="{69cb1b22-378a-4312-a96d-fc8442d0658b}">
+	<object class="ParameterCondition" id="{f3d0203e-be28-46f5-8baa-d6c3bec61536}">
 		<property name="minimum">
 			<value>5</value>
 		</property>
