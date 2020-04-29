@@ -234,6 +234,8 @@
 		<property name="length">
 			<value>0.64000000000000001</value>
 		</property>
+		<property name="playlistMode">
+			<value>3</value>
 		<property name="timelockedOffset">
 			<value>0.05000000000000001</value>
 		</property>

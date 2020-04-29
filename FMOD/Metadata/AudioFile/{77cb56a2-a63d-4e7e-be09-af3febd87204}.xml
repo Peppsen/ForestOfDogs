@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{77cb56a2-a63d-4e7e-be09-af3febd87204}">
 		<property name="assetPath">
-			<value>Overworld_Music1Loop_100BPM.wav</value>
+			<value>Music/Overworld_Music1Loop_100BPM.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

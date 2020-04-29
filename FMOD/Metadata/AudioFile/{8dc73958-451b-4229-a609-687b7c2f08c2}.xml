@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{8dc73958-451b-4229-a609-687b7c2f08c2}">
 		<property name="assetPath">
-			<value>PlayerHurt07 (dramatic).wav</value>
+			<value>Player/PlayerHurt07 (dramatic).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

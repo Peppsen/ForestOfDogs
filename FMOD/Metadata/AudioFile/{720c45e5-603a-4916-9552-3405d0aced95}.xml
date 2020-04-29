@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{720c45e5-603a-4916-9552-3405d0aced95}">
 		<property name="assetPath">
-			<value>CombatStinger1_170BPM.wav</value>
+			<value>Music/CombatStinger1_170BPM.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

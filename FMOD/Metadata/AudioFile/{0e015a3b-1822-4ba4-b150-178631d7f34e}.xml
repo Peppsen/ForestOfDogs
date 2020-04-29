@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{0e015a3b-1822-4ba4-b150-178631d7f34e}">
 		<property name="assetPath">
-			<value>Daschund_Mono.wav</value>
+			<value>Player/Daschund_Mono.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

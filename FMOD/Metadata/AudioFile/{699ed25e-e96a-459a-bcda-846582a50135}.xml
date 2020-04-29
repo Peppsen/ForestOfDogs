@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{699ed25e-e96a-459a-bcda-846582a50135}">
 		<property name="assetPath">
-			<value>WinStinger1_170BPM.wav</value>
+			<value>Music/WinStinger1_170BPM.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
