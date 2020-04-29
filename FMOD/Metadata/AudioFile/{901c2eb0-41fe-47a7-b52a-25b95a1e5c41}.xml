@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{df177ce0-1784-4e1e-931f-dd783f76f1f4}">
+	<object class="AudioFile" id="{901c2eb0-41fe-47a7-b52a-25b95a1e5c41}">
 		<property name="assetPath">
-			<value>Player/DirtFootsteps002.wav</value>
+			<value>PlayerHurt08.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.170625</value>
+			<value>0.70964583333333331</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{26152c41-e492-47ef-88ba-253ebc247536}</destination>
