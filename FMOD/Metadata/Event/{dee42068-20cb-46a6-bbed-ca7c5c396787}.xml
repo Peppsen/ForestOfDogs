@@ -209,6 +209,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{847f7344-4d56-4a15-8d4e-c125d3650ba1}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<property name="name">
 			<value>GRASSLAYER</value>
 		</property>
@@ -227,15 +230,14 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>18.5</value>
+			<value>7.5</value>
 		</property>
 		<property name="isAsync">
 			<value>true</value>
 		</property>
 		<property name="length">
-			<value>0.44000000000000011</value>
+			<value>0.33854166666666669</value>
 		</property>
-		<property name="name" />
 		<relationship name="modulators">
 			<destination>{ee5ae205-ad55-422e-a980-1e3006760350}</destination>
 			<destination>{909fcbf6-5f0d-4730-bce7-8c497ec41e81}</destination>
@@ -253,7 +255,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{e56150b1-160e-4b80-87a9-938bb6fe188c}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-3.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -410,7 +412,7 @@
 			<value>startOffset</value>
 		</property>
 		<property name="amount">
-			<value>84</value>
+			<value>81.5</value>
 		</property>
 	</object>
 	<object class="LFOModulator" id="{93ce52a4-7849-4066-98e0-d7abfc675d8d}">
@@ -448,6 +450,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{4b8dd6dd-62e3-415c-923a-ed23fe708221}">
 		<relationship name="effects">
+			<destination>{cb28a0fe-90a9-460f-b1a6-7aea932a4601}</destination>
 			<destination>{cb738116-50d1-473b-a48b-73c667d08318}</destination>
 		</relationship>
 	</object>
@@ -544,7 +547,7 @@
 			<value>0</value>
 		</property>
 		<property name="curveShape">
-			<value>-1.00000048</value>
+			<value>-0.701384544</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{052ca69c-8d23-4c32-bd78-f48957e637bb}">
@@ -557,7 +560,7 @@
 	</object>
 	<object class="AutomationPoint" id="{5deefafb-e6d5-4ef0-b3d6-7b6651ccbf7c}">
 		<property name="position">
-			<value>0.26000000000000001</value>
+			<value>0.15854166666666658</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -568,10 +571,18 @@
 	</object>
 	<object class="AutomationPoint" id="{7df0b4cb-3c0c-4dcb-b0bb-b43fd7975086}">
 		<property name="position">
-			<value>0.44000000000000011</value>
+			<value>0.33854166666666669</value>
 		</property>
 		<property name="value">
 			<value>0</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{cb28a0fe-90a9-460f-b1a6-7aea932a4601}">
+		<property name="threshold">
+			<value>-49</value>
+		</property>
+		<property name="ratio">
+			<value>2.99999976</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{cb738116-50d1-473b-a48b-73c667d08318}" />

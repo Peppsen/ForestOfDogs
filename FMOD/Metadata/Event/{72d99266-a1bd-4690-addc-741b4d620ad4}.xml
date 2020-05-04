@@ -19,7 +19,13 @@ AttackType parameter
 2 = Bite
 3 = Ruff
 4 = Tailspin
-</value>
+
+Dog parameter
+0 = Shiba
+1 = Doberman
+2 = St Bernard
+3 = Dachshund
+4 = Japanese spitz</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

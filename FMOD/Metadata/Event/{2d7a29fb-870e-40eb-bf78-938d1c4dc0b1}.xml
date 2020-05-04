@@ -287,6 +287,7 @@
 			<destination>{c8de51a6-be41-43e5-a647-9af9f1f565d8}</destination>
 			<destination>{86df5d36-0d7d-4541-92d8-927022a38bd4}</destination>
 			<destination>{131fe44b-68ca-45a8-8b8a-b8357d344efe}</destination>
+			<destination>{ae1522db-50d2-4a60-b627-d577484cfa07}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{b31ee3b7-dd3e-4635-8605-2db415f25d7a}">
@@ -641,10 +642,10 @@
 			<value>true</value>
 		</property>
 		<property name="start">
-			<value>66.204090165868919</value>
+			<value>66.258823529411757</value>
 		</property>
 		<property name="length">
-			<value>97.411764705882348</value>
+			<value>97.357031342339496</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -1669,6 +1670,20 @@
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{d1736b18-dd20-4869-9cfb-6dade3728064}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{ae1522db-50d2-4a60-b627-d577484cfa07}">
+		<property name="position">
+			<value>32.762913695280673</value>
+		</property>
+		<property name="name">
+			<value>KeyE</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{375c9fd2-4893-408b-9803-febbbe2bfa8c}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{c80266db-7766-469b-a0b8-3d09f8fb72f2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{5da0a276-bacf-46e0-a330-82ad51642805}">

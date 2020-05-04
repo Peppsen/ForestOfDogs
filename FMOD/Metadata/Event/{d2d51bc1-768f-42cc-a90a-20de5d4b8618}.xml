@@ -190,6 +190,9 @@
 		<property name="isAsync">
 			<value>true</value>
 		</property>
+		<property name="start">
+			<value>0.38</value>
+		</property>
 		<property name="length">
 			<value>0.31079638752052546</value>
 		</property>
@@ -481,7 +484,7 @@
 	<object class="MixerBusFader" id="{77acfe08-d22d-4d6d-9688-f18ddcae442e}" />
 	<object class="AutomationPoint" id="{1afcb8be-9a45-4efe-9936-d889e17985b1}">
 		<property name="position">
-			<value>0.19823481116584579</value>
+			<value>0.57823481116584596</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -492,7 +495,7 @@
 	</object>
 	<object class="AutomationPoint" id="{811307ea-c1b1-4e1f-b6b5-d508cca4bfde}">
 		<property name="position">
-			<value>0.31079638752052546</value>
+			<value>0.69079638752052541</value>
 		</property>
 		<property name="value">
 			<value>0</value>
