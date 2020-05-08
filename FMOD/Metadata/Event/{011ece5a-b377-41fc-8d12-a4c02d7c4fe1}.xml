@@ -190,7 +190,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f9287697-ff0a-47e3-8c83-0084bc0bb1b8}">
 		<property name="volume">
-			<value>-7.5</value>
+			<value>-4.5</value>
 		</property>
 		<property name="name">
 			<value>Shiba</value>
@@ -221,6 +221,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5408d211-66b2-46b4-821c-efa97b4fc254}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<property name="name">
 			<value>Doberman</value>
 		</property>
@@ -250,7 +253,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{dab31525-2ff6-41d1-b4ff-6519bc06bafe}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>St Bernard</value>

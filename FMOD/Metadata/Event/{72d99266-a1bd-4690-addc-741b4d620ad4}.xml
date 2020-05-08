@@ -11,9 +11,7 @@ PlayerState parameter
 1 = Attack
 2 = BattleBork
 3 = Healing 
-4 = Defense
-5 = Hit
-6 =
+4 = Hit
 
 AttackType parameter
 1 = Paw
@@ -53,9 +51,7 @@ Dog parameter
 			<destination>{c6818e5e-f9be-4c41-86e2-47b57fbcb695}</destination>
 			<destination>{bede6160-f2cc-4801-9e90-c7030baee919}</destination>
 			<destination>{f522f4db-c8e0-4e1b-879e-057cf84dbcea}</destination>
-			<destination>{8e5742eb-dd1e-4558-906d-a444ba421f38}</destination>
 			<destination>{52b56bb9-01b4-43a9-9dee-3da88eb5c5ba}</destination>
-			<destination>{ad0822ae-92a5-4fd9-a346-31c0173f097d}</destination>
 		</relationship>
 		<relationship name="timeline">
 			<destination>{e49deb57-02c2-4df1-8f94-8c6ff06b18b3}</destination>
@@ -111,14 +107,6 @@ Dog parameter
 			<destination>{de84d751-c7b5-4abd-82a2-75be1b0beb43}</destination>
 		</relationship>
 	</object>
-	<object class="GroupTrack" id="{8e5742eb-dd1e-4558-906d-a444ba421f38}">
-		<relationship name="modules">
-			<destination>{a5b4d5a1-adb6-47de-89ea-90e718d27c65}</destination>
-		</relationship>
-		<relationship name="mixerGroup">
-			<destination>{fc4dde26-0a5c-43d7-9e7d-3e64eeb8a002}</destination>
-		</relationship>
-	</object>
 	<object class="GroupTrack" id="{52b56bb9-01b4-43a9-9dee-3da88eb5c5ba}">
 		<relationship name="modules">
 			<destination>{f41d7cce-8dfe-4b39-8ed5-ca46b32bcdde}</destination>
@@ -127,22 +115,12 @@ Dog parameter
 			<destination>{ea3c1581-78bb-4b78-86d3-b8206466f0f1}</destination>
 		</relationship>
 	</object>
-	<object class="GroupTrack" id="{ad0822ae-92a5-4fd9-a346-31c0173f097d}">
-		<relationship name="modules">
-			<destination>{529c93b7-729a-4e13-9983-08f1016061b2}</destination>
-		</relationship>
-		<relationship name="mixerGroup">
-			<destination>{4a686bfa-f855-4283-82ee-50f5c8af3232}</destination>
-		</relationship>
-	</object>
 	<object class="Timeline" id="{e49deb57-02c2-4df1-8f94-8c6ff06b18b3}">
 		<relationship name="modules">
 			<destination>{b1db531e-cd76-445b-9ef7-aa9153242920}</destination>
 			<destination>{ef2c2111-a0eb-4788-bf3b-155cfe9a2033}</destination>
-			<destination>{a5b4d5a1-adb6-47de-89ea-90e718d27c65}</destination>
 			<destination>{f53d0b19-18cc-4cdc-9618-bb52c43121db}</destination>
 			<destination>{f41d7cce-8dfe-4b39-8ed5-ca46b32bcdde}</destination>
-			<destination>{529c93b7-729a-4e13-9983-08f1016061b2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7b74553a-b2a1-4657-b18c-c6b1deeb349c}">
@@ -237,37 +215,12 @@ Dog parameter
 			<destination>{7b74553a-b2a1-4657-b18c-c6b1deeb349c}</destination>
 		</relationship>
 	</object>
-	<object class="EventSound" id="{a5b4d5a1-adb6-47de-89ea-90e718d27c65}">
-		<property name="length">
-			<value>1.5</value>
-		</property>
-		<relationship name="triggerConditions">
-			<destination>{79ba5d10-3410-4f10-b845-c66246a56532}</destination>
-		</relationship>
-		<relationship name="event">
-			<destination>{3e65d2ec-2225-410c-8453-4c2b28cc534b}</destination>
-		</relationship>
-	</object>
-	<object class="EventMixerGroup" id="{fc4dde26-0a5c-43d7-9e7d-3e64eeb8a002}">
-		<property name="name">
-			<value>DefenceAbility</value>
-		</property>
-		<relationship name="effectChain">
-			<destination>{1c57d4b5-fb2a-495f-be2f-9d0df210a8cd}</destination>
-		</relationship>
-		<relationship name="panner">
-			<destination>{129f6c4d-10b3-4b48-bc0e-c9e095f7b28b}</destination>
-		</relationship>
-		<relationship name="output">
-			<destination>{7b74553a-b2a1-4657-b18c-c6b1deeb349c}</destination>
-		</relationship>
-	</object>
 	<object class="EventSound" id="{f41d7cce-8dfe-4b39-8ed5-ca46b32bcdde}">
 		<property name="length">
 			<value>0.5</value>
 		</property>
 		<relationship name="triggerConditions">
-			<destination>{f3d0203e-be28-46f5-8baa-d6c3bec61536}</destination>
+			<destination>{c493ad4e-c5a3-4fc9-81d9-eb812f1d70c2}</destination>
 		</relationship>
 		<relationship name="event">
 			<destination>{011ece5a-b377-41fc-8d12-a4c02d7c4fe1}</destination>
@@ -282,28 +235,6 @@ Dog parameter
 		</relationship>
 		<relationship name="panner">
 			<destination>{5337bda6-7646-45b7-b620-086fd939b4c8}</destination>
-		</relationship>
-		<relationship name="output">
-			<destination>{7b74553a-b2a1-4657-b18c-c6b1deeb349c}</destination>
-		</relationship>
-	</object>
-	<object class="EventSound" id="{529c93b7-729a-4e13-9983-08f1016061b2}">
-		<relationship name="triggerConditions">
-			<destination>{56d0bcd3-873b-4703-8864-db1d622e6601}</destination>
-		</relationship>
-		<relationship name="event">
-			<destination>{eb0de5b4-c5e7-435f-8bf5-4b47ca1a15cc}</destination>
-		</relationship>
-	</object>
-	<object class="EventMixerGroup" id="{4a686bfa-f855-4283-82ee-50f5c8af3232}">
-		<property name="name">
-			<value>Death</value>
-		</property>
-		<relationship name="effectChain">
-			<destination>{73d3f8f7-5350-428c-a18c-13ec023f3a66}</destination>
-		</relationship>
-		<relationship name="panner">
-			<destination>{aa595015-e641-49c2-8f2f-f58a0c66e2ad}</destination>
 		</relationship>
 		<relationship name="output">
 			<destination>{7b74553a-b2a1-4657-b18c-c6b1deeb349c}</destination>
@@ -367,29 +298,12 @@ Dog parameter
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ad1023a0-2f45-49d3-9bfa-626d9bbf5505}" />
-	<object class="ParameterCondition" id="{79ba5d10-3410-4f10-b845-c66246a56532}">
+	<object class="ParameterCondition" id="{c493ad4e-c5a3-4fc9-81d9-eb812f1d70c2}">
 		<property name="minimum">
 			<value>4</value>
 		</property>
 		<property name="maximum">
 			<value>4</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{c3d0bf66-1493-4abf-ae6a-63e84c410942}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusEffectChain" id="{1c57d4b5-fb2a-495f-be2f-9d0df210a8cd}">
-		<relationship name="effects">
-			<destination>{1901fc5e-1b79-4c76-9d05-11992bb90fa4}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusPanner" id="{129f6c4d-10b3-4b48-bc0e-c9e095f7b28b}" />
-	<object class="ParameterCondition" id="{f3d0203e-be28-46f5-8baa-d6c3bec61536}">
-		<property name="minimum">
-			<value>5</value>
-		</property>
-		<property name="maximum">
-			<value>5</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{c3d0bf66-1493-4abf-ae6a-63e84c410942}</destination>
@@ -401,28 +315,9 @@ Dog parameter
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5337bda6-7646-45b7-b620-086fd939b4c8}" />
-	<object class="ParameterCondition" id="{56d0bcd3-873b-4703-8864-db1d622e6601}">
-		<property name="minimum">
-			<value>5</value>
-		</property>
-		<property name="maximum">
-			<value>5</value>
-		</property>
-		<relationship name="parameter">
-			<destination>{c3d0bf66-1493-4abf-ae6a-63e84c410942}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusEffectChain" id="{73d3f8f7-5350-428c-a18c-13ec023f3a66}">
-		<relationship name="effects">
-			<destination>{175ef363-ddfb-46e9-ba6b-2e9d3c78cd71}</destination>
-		</relationship>
-	</object>
-	<object class="MixerBusPanner" id="{aa595015-e641-49c2-8f2f-f58a0c66e2ad}" />
 	<object class="MixerBusFader" id="{ec167a65-d780-40cc-9e57-a1c8e4cf6fdf}" />
 	<object class="MixerBusFader" id="{06b0a685-f55e-4970-a824-8ce1f0deb8d6}" />
 	<object class="MixerBusFader" id="{90367fc1-0855-40db-b0a0-e3d96f45bc3f}" />
 	<object class="MixerBusFader" id="{14dfa6a2-fc67-4432-8eb9-416cfee28beb}" />
-	<object class="MixerBusFader" id="{1901fc5e-1b79-4c76-9d05-11992bb90fa4}" />
 	<object class="MixerBusFader" id="{89c7038d-be16-46c5-b271-11f4f3febd5d}" />
-	<object class="MixerBusFader" id="{175ef363-ddfb-46e9-ba6b-2e9d3c78cd71}" />
 </objects>
