@@ -13,6 +13,7 @@ PlayerState parameter
 3 = Healing 
 4 = Defense
 5 = Hit
+6 =
 
 AttackType parameter
 1 = Paw
@@ -54,6 +55,7 @@ Dog parameter
 			<destination>{f522f4db-c8e0-4e1b-879e-057cf84dbcea}</destination>
 			<destination>{8e5742eb-dd1e-4558-906d-a444ba421f38}</destination>
 			<destination>{52b56bb9-01b4-43a9-9dee-3da88eb5c5ba}</destination>
+			<destination>{ad0822ae-92a5-4fd9-a346-31c0173f097d}</destination>
 		</relationship>
 		<relationship name="timeline">
 			<destination>{e49deb57-02c2-4df1-8f94-8c6ff06b18b3}</destination>
@@ -125,6 +127,14 @@ Dog parameter
 			<destination>{ea3c1581-78bb-4b78-86d3-b8206466f0f1}</destination>
 		</relationship>
 	</object>
+	<object class="GroupTrack" id="{ad0822ae-92a5-4fd9-a346-31c0173f097d}">
+		<relationship name="modules">
+			<destination>{529c93b7-729a-4e13-9983-08f1016061b2}</destination>
+		</relationship>
+		<relationship name="mixerGroup">
+			<destination>{4a686bfa-f855-4283-82ee-50f5c8af3232}</destination>
+		</relationship>
+	</object>
 	<object class="Timeline" id="{e49deb57-02c2-4df1-8f94-8c6ff06b18b3}">
 		<relationship name="modules">
 			<destination>{b1db531e-cd76-445b-9ef7-aa9153242920}</destination>
@@ -132,6 +142,7 @@ Dog parameter
 			<destination>{a5b4d5a1-adb6-47de-89ea-90e718d27c65}</destination>
 			<destination>{f53d0b19-18cc-4cdc-9618-bb52c43121db}</destination>
 			<destination>{f41d7cce-8dfe-4b39-8ed5-ca46b32bcdde}</destination>
+			<destination>{529c93b7-729a-4e13-9983-08f1016061b2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{7b74553a-b2a1-4657-b18c-c6b1deeb349c}">
@@ -276,6 +287,28 @@ Dog parameter
 			<destination>{7b74553a-b2a1-4657-b18c-c6b1deeb349c}</destination>
 		</relationship>
 	</object>
+	<object class="EventSound" id="{529c93b7-729a-4e13-9983-08f1016061b2}">
+		<relationship name="triggerConditions">
+			<destination>{56d0bcd3-873b-4703-8864-db1d622e6601}</destination>
+		</relationship>
+		<relationship name="event">
+			<destination>{eb0de5b4-c5e7-435f-8bf5-4b47ca1a15cc}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixerGroup" id="{4a686bfa-f855-4283-82ee-50f5c8af3232}">
+		<property name="name">
+			<value>Death</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{73d3f8f7-5350-428c-a18c-13ec023f3a66}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{aa595015-e641-49c2-8f2f-f58a0c66e2ad}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{7b74553a-b2a1-4657-b18c-c6b1deeb349c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{1f5330f5-c3e9-4683-90fa-c6c05199dc48}">
 		<relationship name="effects">
 			<destination>{ec167a65-d780-40cc-9e57-a1c8e4cf6fdf}</destination>
@@ -368,10 +401,28 @@ Dog parameter
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5337bda6-7646-45b7-b620-086fd939b4c8}" />
+	<object class="ParameterCondition" id="{56d0bcd3-873b-4703-8864-db1d622e6601}">
+		<property name="minimum">
+			<value>5</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{c3d0bf66-1493-4abf-ae6a-63e84c410942}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{73d3f8f7-5350-428c-a18c-13ec023f3a66}">
+		<relationship name="effects">
+			<destination>{175ef363-ddfb-46e9-ba6b-2e9d3c78cd71}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{aa595015-e641-49c2-8f2f-f58a0c66e2ad}" />
 	<object class="MixerBusFader" id="{ec167a65-d780-40cc-9e57-a1c8e4cf6fdf}" />
 	<object class="MixerBusFader" id="{06b0a685-f55e-4970-a824-8ce1f0deb8d6}" />
 	<object class="MixerBusFader" id="{90367fc1-0855-40db-b0a0-e3d96f45bc3f}" />
 	<object class="MixerBusFader" id="{14dfa6a2-fc67-4432-8eb9-416cfee28beb}" />
 	<object class="MixerBusFader" id="{1901fc5e-1b79-4c76-9d05-11992bb90fa4}" />
 	<object class="MixerBusFader" id="{89c7038d-be16-46c5-b271-11f4f3febd5d}" />
+	<object class="MixerBusFader" id="{175ef363-ddfb-46e9-ba6b-2e9d3c78cd71}" />
 </objects>
