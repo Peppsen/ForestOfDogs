@@ -147,7 +147,7 @@
 			<value>0.13843749999999999</value>
 		</property>
 		<property name="pitch">
-			<value>-8</value>
+			<value>-24</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{1727b720-c153-4046-984e-6e27056d1b6d}</destination>
@@ -190,7 +190,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f9287697-ff0a-47e3-8c83-0084bc0bb1b8}">
 		<property name="volume">
-			<value>-5</value>
+			<value>-7.5</value>
 		</property>
 		<property name="name">
 			<value>Shiba</value>

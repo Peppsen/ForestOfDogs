@@ -13,7 +13,8 @@
 EnemyState (parameter)
 1 = Attack
 2 = Hit
-3 = Death</value>
+3 = Death
+4 = Defense</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -234,13 +235,16 @@ EnemyState (parameter)
 		<property name="length">
 			<value>8</value>
 		</property>
+		<relationship name="triggerConditions">
+			<destination>{0dfa1f95-aa91-47d2-8238-7b0093aa2708}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{055e4a4f-4cec-4056-851b-0f9183679df1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{22a4b4b4-d8e2-4f1a-993a-5a09006baa9f}">
 		<property name="volume">
-			<value>-80</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>EnemyDefense</value>
@@ -313,6 +317,17 @@ EnemyState (parameter)
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{db168bea-a3c3-4a8d-b834-3db4c1436d85}" />
+	<object class="ParameterCondition" id="{0dfa1f95-aa91-47d2-8238-7b0093aa2708}">
+		<property name="minimum">
+			<value>4</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{cf4bb322-4017-4f72-a4e0-932c1076a3bd}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{b23e9b89-1255-452c-8928-be47a7ca54bd}">
 		<relationship name="effects">
 			<destination>{d4d67f60-b040-4107-bee5-a9b95d230f78}</destination>
