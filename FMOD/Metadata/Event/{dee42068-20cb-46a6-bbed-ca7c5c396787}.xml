@@ -177,7 +177,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{e6085201-c205-4986-9c1f-6f8c1fd5a63e}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-80</value>
 		</property>
 		<property name="name">
 			<value>DIRT</value>
@@ -210,7 +210,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{847f7344-4d56-4a15-8d4e-c125d3650ba1}">
 		<property name="volume">
-			<value>-12</value>
+			<value>-29.5</value>
 		</property>
 		<property name="name">
 			<value>GRASSLAYER</value>
@@ -336,10 +336,10 @@
 	</object>
 	<object class="ParameterCondition" id="{1af28b7a-c924-47b0-a25b-a07709ea15c8}">
 		<property name="minimum">
-			<value>1.5099999904632568</value>
+			<value>1</value>
 		</property>
 		<property name="maximum">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{b55aa4a8-c771-4407-8531-9ad3c49f4a39}</destination>

@@ -17,7 +17,7 @@ IsEnemy
 </value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{54311198-06f7-4976-a1d2-9c7e8567fd66}</destination>
@@ -322,7 +322,11 @@ IsEnemy
 			<destination>{13c0c2e3-cb95-429b-ae43-26c7241a390b}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{a5901208-ffb8-403d-89b8-b89f01250082}" />
+	<object class="MixerBusPanner" id="{a5901208-ffb8-403d-89b8-b89f01250082}">
+		<property name="stereoPan">
+			<value>-14</value>
+		</property>
+	</object>
 	<object class="ParameterCondition" id="{ce82fc5e-4f21-42d4-bdde-32d360033353}">
 		<property name="minimum">
 			<value>1</value>
@@ -350,7 +354,17 @@ IsEnemy
 			<destination>{675c8078-ce8f-4c2c-86e0-2c74e3f8e233}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{f172031e-d3b6-4a75-9b02-7e1af7ccf424}" />
+	<object class="MixerBusPanner" id="{f172031e-d3b6-4a75-9b02-7e1af7ccf424}">
+		<property name="stereoPan">
+			<value>10</value>
+		</property>
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+		<property name="outputFormatOverridden">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="ParameterCondition" id="{7e64b025-8cc8-44c1-afca-2db4e3dae395}">
 		<property name="minimum">
 			<value>2</value>

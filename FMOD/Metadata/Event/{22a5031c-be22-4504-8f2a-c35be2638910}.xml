@@ -15,7 +15,7 @@
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{e2ef1e19-6851-4fbc-b6b4-0d175c89f9e0}</destination>
+			<destination>{64255712-53d6-4a17-b61f-69bece8ed1fd}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{f2b18c46-b5f3-4b7d-837e-f6a309c526f8}</destination>
@@ -129,7 +129,6 @@
 		<property name="length">
 			<value>2</value>
 		</property>
-		<property name="name" />
 		<relationship name="triggerConditions">
 			<destination>{d40336e6-334b-4af7-8319-09b3b4465aae}</destination>
 		</relationship>

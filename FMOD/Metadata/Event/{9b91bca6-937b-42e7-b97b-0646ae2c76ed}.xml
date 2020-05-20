@@ -203,7 +203,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{2f5d9cb0-26b0-44f1-aa54-e1fc4390c69e}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>PlayD</value>
@@ -229,7 +229,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{2f5cacb1-0077-466a-8055-5994265ff47e}">
 		<property name="volume">
-			<value>-7</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>PlayE</value>

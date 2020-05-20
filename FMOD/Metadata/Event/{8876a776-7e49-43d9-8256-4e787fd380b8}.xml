@@ -14,7 +14,7 @@
 4 = Japanese spitz</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{54311198-06f7-4976-a1d2-9c7e8567fd66}</destination>
@@ -285,7 +285,11 @@
 			<destination>{1b71e419-dcbe-477e-a9f8-67a7b0a1ddc5}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{ed24e395-7c80-42e9-8c8d-d37cc9b51c74}" />
+	<object class="MixerBusPanner" id="{ed24e395-7c80-42e9-8c8d-d37cc9b51c74}">
+		<property name="stereoPan">
+			<value>-10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{4484acf6-4439-46c7-9cd0-a3bd7c620d77}" />
 	<object class="ParameterCondition" id="{ceaf6076-da78-4993-86d0-352393360c50}">
 		<property name="minimum">
