@@ -287,7 +287,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{ed24e395-7c80-42e9-8c8d-d37cc9b51c74}">
 		<property name="stereoPan">
-			<value>-10</value>
+			<value>-14</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{4484acf6-4439-46c7-9cd0-a3bd7c620d77}" />
@@ -388,7 +388,7 @@
 			<value>38</value>
 		</property>
 		<property name="wetLevel">
-			<value>-19</value>
+			<value>-17</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{81be74e0-7c99-463e-8323-e54b6012ab36}" />

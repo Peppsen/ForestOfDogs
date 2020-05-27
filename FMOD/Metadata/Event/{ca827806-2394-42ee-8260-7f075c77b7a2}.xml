@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{ca827806-2394-42ee-8260-7f075c77b7a2}">
 		<property name="name">
-			<value>Dialogue</value>
+			<value>DialogueBeep</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{9b6ea5a1-d013-4c9e-9374-0f82e7bab519}</destination>
+			<destination>{3a26a11d-633e-4b1b-ab6c-013276e4d33b}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{d6be25b7-11ee-4e25-9476-0488ba7fbdab}</destination>
@@ -111,10 +111,10 @@
 	</object>
 	<object class="EventMixerGroup" id="{3f51c6ed-2207-4126-91d6-70b0a981727b}">
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-8</value>
 		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>DialogueBeep</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{f69335a7-784b-43f1-9be3-885f21c4841c}</destination>

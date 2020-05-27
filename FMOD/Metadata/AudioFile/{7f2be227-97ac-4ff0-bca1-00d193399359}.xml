@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{7f2be227-97ac-4ff0-bca1-00d193399359}">
 		<property name="assetPath">
-			<value>Cartoon, Dog, Howl SND15186 2.wav</value>
+			<value>Player/Cartoon, Dog, Howl SND15186 2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

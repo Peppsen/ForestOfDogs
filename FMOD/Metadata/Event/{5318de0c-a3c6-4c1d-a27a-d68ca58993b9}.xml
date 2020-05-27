@@ -4,7 +4,6 @@
 		<property name="name">
 			<value>PawAttack</value>
 		</property>
-		<property name="note" />
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
@@ -154,7 +153,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3edca95c-005a-4944-bfdd-d275c07763de}">
 		<property name="volume">
-			<value>-24</value>
+			<value>-29</value>
 		</property>
 		<property name="name">
 			<value>Layer1</value>
@@ -196,7 +195,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b78c196e-e4c3-48e3-b0a1-e3985db19398}">
 		<property name="volume">
-			<value>-33</value>
+			<value>-36</value>
 		</property>
 		<property name="name">
 			<value>Layer2</value>
@@ -259,6 +258,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{6cf48fee-42c4-4c4f-9579-39b60e9bb658}">
+		<property name="volume">
+			<value>-4.5</value>
+		</property>
 		<property name="name">
 			<value>Layer4</value>
 		</property>
@@ -291,7 +293,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{e6946e43-9d98-416e-9392-65a97a32678a}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-14.5</value>
 		</property>
 		<property name="name">
 			<value>Layer5</value>

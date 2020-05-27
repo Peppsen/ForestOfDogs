@@ -246,11 +246,7 @@ Dog parameter
 			<destination>{1bb0e6cf-c702-4c16-b9e5-9efecbbf51e7}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{c5c93dfc-bc82-4faf-a0ba-51aa8f4aba84}">
-		<property name="stereoPan">
-			<value>-14</value>
-		</property>
-	</object>
+	<object class="MixerBusPanner" id="{c5c93dfc-bc82-4faf-a0ba-51aa8f4aba84}" />
 	<object class="MixerBusFader" id="{1a73301f-aba5-48ac-9537-2ed5f69545df}" />
 	<object class="ParameterCondition" id="{3c6d4c9d-e40b-4557-b24d-d4ddcc2c6b64}">
 		<property name="minimum">
@@ -285,7 +281,11 @@ Dog parameter
 			<destination>{90367fc1-0855-40db-b0a0-e3d96f45bc3f}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{037d8bd7-2b78-4024-b964-1d3b777d1c28}" />
+	<object class="MixerBusPanner" id="{037d8bd7-2b78-4024-b964-1d3b777d1c28}">
+		<property name="stereoPan">
+			<value>-20</value>
+		</property>
+	</object>
 	<object class="ParameterCondition" id="{7520e6b0-98ef-46f9-be48-b7205bde9c3c}">
 		<property name="minimum">
 			<value>3</value>
@@ -302,7 +302,11 @@ Dog parameter
 			<destination>{14dfa6a2-fc67-4432-8eb9-416cfee28beb}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{ad1023a0-2f45-49d3-9bfa-626d9bbf5505}" />
+	<object class="MixerBusPanner" id="{ad1023a0-2f45-49d3-9bfa-626d9bbf5505}">
+		<property name="stereoPan">
+			<value>-20</value>
+		</property>
+	</object>
 	<object class="ParameterCondition" id="{c493ad4e-c5a3-4fc9-81d9-eb812f1d70c2}">
 		<property name="minimum">
 			<value>4</value>
@@ -319,7 +323,11 @@ Dog parameter
 			<destination>{89c7038d-be16-46c5-b271-11f4f3febd5d}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{5337bda6-7646-45b7-b620-086fd939b4c8}" />
+	<object class="MixerBusPanner" id="{5337bda6-7646-45b7-b620-086fd939b4c8}">
+		<property name="stereoPan">
+			<value>-20</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ec167a65-d780-40cc-9e57-a1c8e4cf6fdf}" />
 	<object class="LimiterEffect" id="{1bb0e6cf-c702-4c16-b9e5-9efecbbf51e7}" />
 	<object class="MixerBusFader" id="{06b0a685-f55e-4970-a824-8ce1f0deb8d6}" />

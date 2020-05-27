@@ -230,9 +230,6 @@ EnemyState (parameter)
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b877dc47-3ecd-4090-a86f-0788441de506}">
-		<property name="stereoPan">
-			<value>20</value>
-		</property>
 		<property name="overridingOutputFormat">
 			<value>1</value>
 		</property>
@@ -275,6 +272,9 @@ EnemyState (parameter)
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{41d792d2-be2a-4dea-914f-e95d26520547}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
 		<property name="outputFormatOverridden">
 			<value>true</value>
 		</property>
@@ -296,6 +296,9 @@ EnemyState (parameter)
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{db168bea-a3c3-4a8d-b834-3db4c1436d85}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
 		<property name="outputFormatOverridden">
 			<value>true</value>
 		</property>

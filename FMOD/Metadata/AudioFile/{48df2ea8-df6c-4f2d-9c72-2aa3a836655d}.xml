@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{48df2ea8-df6c-4f2d-9c72-2aa3a836655d}">
 		<property name="assetPath">
-			<value>Doberman_Mono.wav</value>
+			<value>Player/Doberman_Mono.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

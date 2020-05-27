@@ -253,7 +253,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{dab31525-2ff6-41d1-b4ff-6519bc06bafe}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-2</value>
 		</property>
 		<property name="name">
 			<value>St Bernard</value>
@@ -285,7 +285,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{631431c4-ceb1-4acc-b29d-24c84b7cbcf1}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-4.5</value>
 		</property>
 		<property name="name">
 			<value>Dachshund</value>
@@ -322,7 +322,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ba967b69-ae21-4785-a753-7db8a20f703b}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-4</value>
 		</property>
 		<property name="name">
 			<value>Japanese Spitz</value>

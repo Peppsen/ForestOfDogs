@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{8dc64f07-f028-4b19-b930-792fbc102332}">
 		<property name="assetPath">
-			<value>Collar_layer_01.wav</value>
+			<value>Player/Collar_layer_01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
