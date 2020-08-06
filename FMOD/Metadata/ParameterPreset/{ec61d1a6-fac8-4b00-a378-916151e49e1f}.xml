@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{ec61d1a6-fac8-4b00-a378-916151e49e1f}">
+		<property name="name">
+			<value>CombatTrack</value>
+		</property>
+		<relationship name="folder">
+			<destination>{214a916c-09a1-4f86-936f-48b5787c85bf}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{87bddd94-c0ca-4eb8-8fdb-5ab9eaaf1668}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{87bddd94-c0ca-4eb8-8fdb-5ab9eaaf1668}">
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

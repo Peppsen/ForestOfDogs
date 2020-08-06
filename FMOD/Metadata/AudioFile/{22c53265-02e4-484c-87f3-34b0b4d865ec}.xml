@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{22c53265-02e4-484c-87f3-34b0b4d865ec}">
 		<property name="assetPath">
-			<value>PageTurn_020 - Trimmed.wav</value>
+			<value>Ui/PageTurn_020 - Trimmed.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -8,7 +8,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{9b6ea5a1-d013-4c9e-9374-0f82e7bab519}</destination>
+			<destination>{eb78e45f-2aaf-41b0-8132-faddf2bad449}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{438c373f-7429-4d54-94e5-4bd395a816bb}</destination>
@@ -147,7 +147,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3059b39a-05a1-4052-a4a2-1f79a4e675c5}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-12</value>
 		</property>
 		<property name="name">
 			<value>D - E - F# - A - B - D</value>
@@ -177,7 +177,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{ce1c02e3-720f-468a-8c2d-0ba121df1b82}">
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-12</value>
 		</property>
 		<property name="name">
 			<value>E - F# - G# - B - C# - E</value>
@@ -203,7 +203,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{2f5d9cb0-26b0-44f1-aa54-e1fc4390c69e}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-11.5</value>
 		</property>
 		<property name="name">
 			<value>PlayD</value>
@@ -229,7 +229,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{2f5cacb1-0077-466a-8055-5994265ff47e}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-11.5</value>
 		</property>
 		<property name="name">
 			<value>PlayE</value>

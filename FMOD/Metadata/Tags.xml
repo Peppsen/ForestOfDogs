@@ -13,6 +13,7 @@
 			<destination>{0ec8b99e-6572-4a9f-9706-a359bc013d4c}</destination>
 			<destination>{175f3f40-8b96-4cc2-a553-001bcfa9c997}</destination>
 			<destination>{f97dd61f-a4a7-4dc3-9e39-c594c5b79b27}</destination>
+			<destination>{d5b0a2ac-f51d-4266-aaab-cea7d1b77fa2}</destination>
 		</relationship>
 	</object>
 	<object class="Tag" id="{9fae213d-19a8-44d3-b84f-77357413df44}">
@@ -53,6 +54,11 @@
 	<object class="Tag" id="{f97dd61f-a4a7-4dc3-9e39-c594c5b79b27}">
 		<property name="name">
 			<value>Balloon</value>
+		</property>
+	</object>
+	<object class="Tag" id="{d5b0a2ac-f51d-4266-aaab-cea7d1b77fa2}">
+		<property name="name">
+			<value>Item</value>
 		</property>
 	</object>
 </objects>

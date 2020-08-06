@@ -219,7 +219,7 @@ IsEnemy
 	</object>
 	<object class="EventMixerGroup" id="{ac8b582c-6d37-44a2-bcf1-93ea4f066e63}">
 		<property name="volume">
-			<value>-15.5</value>
+			<value>-18.5</value>
 		</property>
 		<property name="name">
 			<value>HitLayer1</value>
@@ -292,7 +292,7 @@ IsEnemy
 	</object>
 	<object class="EventMixerGroup" id="{c261b1fb-82e5-4f0c-93c8-846c9198fe3a}">
 		<property name="volume">
-			<value>-8</value>
+			<value>-10.5</value>
 		</property>
 		<property name="name">
 			<value>Break</value>
@@ -513,7 +513,7 @@ IsEnemy
 			<value>2.0049261083743843</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>-10.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{b99a1642-3b9f-4403-9e8b-2a9284ef4e8e}">
@@ -521,7 +521,7 @@ IsEnemy
 			<value>3</value>
 		</property>
 		<property name="value">
-			<value>-12</value>
+			<value>-16.5</value>
 		</property>
 	</object>
 </objects>

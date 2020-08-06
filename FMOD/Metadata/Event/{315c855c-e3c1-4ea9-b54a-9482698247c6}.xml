@@ -120,9 +120,6 @@
 		<property name="length">
 			<value>0.85000000000000009</value>
 		</property>
-		<property name="timelockedOffset">
-			<value>0.10000000000000003</value>
-		</property>
 		<relationship name="triggerConditions">
 			<destination>{33e14497-bbab-49cc-9184-92b709410f92}</destination>
 		</relationship>
@@ -130,7 +127,7 @@
 			<destination>{af9bb478-25ed-4eb6-a1a2-867a5a4e81ae}</destination>
 		</relationship>
 		<relationship name="audioFile">
-			<destination>{5722925e-c3d9-480b-9d99-cdc1d30500cd}</destination>
+			<destination>{cf7bcc22-6156-4207-8470-66cc035097a9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{62df8498-985d-4bb6-9159-0f115ad6dd11}">
